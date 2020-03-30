@@ -1,0 +1,56 @@
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg"><eq name="Think.get.id" value="">添加<else/>/编辑</eq>商品类别</strong>  <small></small></div>
+      </div>
+
+      <hr/>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+        </div>
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+          <form class="am-form am-form-horizontal" action="" method="post">
+            <div class="am-form-group">
+            <label for="user-email" class="am-u-sm-3 am-form-label">选择一级类别</label>
+              <div class="am-u-sm-9">
+                <select name="tid">
+                  <option value="0">选择分类</option>
+                  [volist name="list" id="vo"]
+                    <option value="{$vo.id}" [eq name='vo.id' value='$cate.tid']selected="selected"[/eq] >{$vo.name}</option>
+                  [/volist]
+                </select>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">类别名</label>
+              <div class="am-u-sm-9">
+                <input type="hidden" name="id" value="{$cate.id}" >
+                <input type="text" name="name" placeholder="" value="{$cate.name}" >
+                <small></small>
+              </div>
+            </div>
+
+
+
+            <div class="am-form-group">
+              <div class="am-u-sm-9 am-u-sm-push-3">
+                <input type="hidden" name="uid" value="{$vo.uid}"/>
+                <button type="submit" class="am-btn am-btn-primary">保存</button>
+				<button type="button" class="am-btn am-btn-default  am-radius" onClick="history.go(-1)">返回</button>
+                <span style="color:red"> {$msg}</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- content end -->
+

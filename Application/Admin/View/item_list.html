@@ -1,0 +1,156 @@
+<style>
+    .my-grid * {
+        font-szie: 13px;
+    }
+
+    .my-grid p, .my-grid h3 {
+        margin: 5px;
+        padding: 0;
+    }
+	a img.pic{width:200px; height:200px;}
+</style>
+
+<div class="admin-content">
+    <div class="admin-content-body">
+        <div class="am-cf am-padding am-padding-bottom-0">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">常用</strong> /
+                <small>商品管理</small>
+            </div>
+        </div>
+        <hr>
+
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-6">
+                <div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                        <button type="button" class="am-btn am-btn-default"
+                                onClick="location.href='__URL__/../user/add'"><span class="am-icon-plus"></span> 新增
+                        </button>
+                        <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存
+                        </button>
+                        <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="am-u-sm-12 am-u-md-3">
+                <form method="get" action="">
+                    <div class="am-input-group am-input-group-sm">
+                        <input type="text" name="kw" class="am-form-field" value="{$Think.get.kw}">
+                        <span class="am-input-group-btn">
+                        <button class="am-btn am-btn-default" type="submit">搜索</button>
+                    </span> </div>
+                </form>
+            </div>
+        </div>
+
+        <p></p>
+        <div class="am-g my-grid">
+            <div class="am-u-sm-12">
+                <form class="am-form">
+				[volist name="list" id="vo"]
+                    <div class="am-u-sm-3">
+                        <div class="am-thumbnail">
+                            <a href="__URL__/../item/view?id={$vo.id}"><img src="{$vo.pic}_200x200.jpg" alt=""  width="120" class="pic" /></a>
+                            <div class="am-thumbnail-caption">
+                                <h3>{$vo.title|mb_substr=###,0,11,'utf-8'}</h3>
+                                <p><span style="color:#0e90d2; font-size:16px; font-weight:bold;">{$vo.username}</span>  发表于  <span style="color:#48b9ef; font-size:16px; font-weight:bold;">{$vo.created|mb_substr=###,0,10,'utf-8'}</span></p>
+                                <p><span style="color:#F30; font-size:16px; font-weight:bold;">¥{$vo.price}</span><span style="float:right;margin-top:5px">留言{$vo.comments} 收藏{$vo.collections}</span></p>
+                                <p>
+                                    <button type="button" class="am-btn am-btn-primary" onclick="if (confirm('确定?')) location.href='__URL__/../item/del?id={$vo.id}'">删除</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					[/volist]
+                    <hr/>
+                </form>
+            </div>
+        </div>
+        <div class="am-u-sm-12">
+        <div class="am-cf">
+            共 {$count} 条记录
+            <div class="am-fr">
+                <ul class="am-pagination">
+                    <div class="digg">{$pageBar}</div>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="admin-content-footer">
+        <hr>
+        <p class="am-padding-left"></p>
+    </footer>
+
+</div>
+<style>
+    DIV.digg {
+        PADDING-RIGHT: 3px;
+        PADDING-LEFT: 3px;
+        PADDING-BOTTOM: 3px;
+        MARGIN: 3px;
+        PADDING-TOP: 3px;
+        TEXT-ALIGN: center
+    }
+
+    DIV.digg A {
+        BORDER-RIGHT: #aaaadd 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #aaaadd 1px solid;
+        PADDING-LEFT: 5px;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #aaaadd 1px solid;
+        COLOR: #000099;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #aaaadd 1px solid;
+        TEXT-DECORATION: none
+    }
+
+    DIV.digg A:hover {
+        BORDER-RIGHT: #000099 1px solid;
+        BORDER-TOP: #000099 1px solid;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #000;
+        BORDER-BOTTOM: #000099 1px solid
+    }
+
+    DIV.digg A:active {
+        BORDER-RIGHT: #000099 1px solid;
+        BORDER-TOP: #000099 1px solid;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #000;
+        BORDER-BOTTOM: #000099 1px solid
+    }
+
+    DIV.digg SPAN.current {
+        BORDER-RIGHT: #000099 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #000099 1px solid;
+        PADDING-LEFT: 5px;
+        FONT-WEIGHT: bold;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #fff;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #000099 1px solid;
+        BACKGROUND-COLOR: #000099
+    }
+
+    DIV.digg SPAN.disabled {
+        BORDER-RIGHT: #eee 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #eee 1px solid;
+        PADDING-LEFT: 5px;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #eee 1px solid;
+        COLOR: #ddd;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #eee 1px solid
+    }
+</style>
+<!-- content end -->

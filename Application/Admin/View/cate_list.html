@@ -1,0 +1,134 @@
+<div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">常用</strong> / <small>分类管理</small></div>
+      </div>
+      <hr>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-6">
+          <div class="am-btn-toolbar">
+            <div class="am-btn-group am-btn-group-xs">
+              <button type="button" class="am-btn am-btn-default" onClick="location.href='__URL__/../cate/add'"><span class="am-icon-plus"></span> 新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除</button>
+              <span style="color:red"> {$msg}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="am-u-sm-12 am-u-md-3">
+        <form method="get" action="">
+          <div class="am-input-group am-input-group-sm">
+
+
+          </div>
+          </form>
+        </div>
+
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <form class="am-form">
+            <table class="am-table am-table-striped  table-main">
+              <thead>
+              <tr>
+                <th class="table-check"><input type="checkbox" /></th><th class="table-id">ID</th><th class="table-title">类名</th><th class="table-date am-hide-sm-only"></th><th class="table-set">操作</th>
+              </tr>
+              </thead>
+              <tbody>
+              [volist name="list" id="vo"]
+              <tr>
+                <td><input type="checkbox" /></td>
+                <td>{$vo.id}</td>
+                <td><a href="#">{$vo.name}</a></td>
+                <td class="am-hide-sm-only">[notempty name="vo.created"]{$vo.created|date='Y-m-d H:i',###}[/notempty]</td>
+                <td>
+                  <div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                      <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary" onClick="location.href='__URL__/../cate/edit?id={$vo.id}'"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                      <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick="if (confirm('确定?')) location.href='__URL__/../cate/del?id={$vo.id}'"><span class="am-icon-trash-o"></span> 删除</button>
+                    </div>
+                  </div>                </td>
+              </tr>
+                [volist name="vo.subCate" id="subvo"]
+                  <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>{$subvo.id}</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">{$subvo.name}</a></td>
+                    <td class="am-hide-sm-only">[notempty name="vo.created"][/notempty]</td>
+                    <td>
+                      <div class="am-btn-toolbar">
+                        <div class="am-btn-group am-btn-group-xs">
+                          <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary" onClick="location.href='__URL__/../cate/edit?id={$subvo.id}'"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                          <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick="if (confirm('确定？')) location.href='__URL__/../cate/del?id={$subvo.id}'"><span class="am-icon-trash-o"></span> 删除</button>
+                        </div>
+                      </div>                </td>
+                  </tr>
+                [/volist]
+              [/volist]
+              </tbody>
+            </table>
+            <div class="am-cf">
+              共 {$count}条记录 {$msg}
+              <div class="am-fr">
+
+                <ul class="am-pagination">
+                  <div class="digg" >{$pageBar}</div>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <p></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script language="javascript">
+    $(document).ready(function(){
+      var d = dialog({
+        title: '提示',
+        content: '该类别下还有商品，请先删除商品才能移除类别！',
+        cancel: false,
+        quickClose: true
+      });
+
+      if(show ==1) d.showModal();
+    });
+  </script>
+
+  <style>
+  DIV.digg { 
+PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px;
+ MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center 
+} 
+DIV.digg A { 
+BORDER-RIGHT: #aaaadd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #aaaadd 1px solid;
+ PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px; 
+BORDER-LEFT: #aaaadd 1px solid; COLOR: #000099; PADDING-TOP: 2px;
+ BORDER-BOTTOM: #aaaadd 1px solid; TEXT-DECORATION: none 
+} 
+DIV.digg A:hover { 
+BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid;
+ BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid 
+} 
+DIV.digg A:active { 
+BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid;
+ BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid 
+} 
+DIV.digg SPAN.current { 
+BORDER-RIGHT: #000099 1px solid; PADDING-RIGHT: 5px;
+ BORDER-TOP: #000099 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold;
+ PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #000099 1px solid;
+ COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #000099 1px solid; BACKGROUND-COLOR: #000099 
+} 
+DIV.digg SPAN.disabled { 
+BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eee 1px solid;
+ PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px;
+ BORDER-LEFT: #eee 1px solid; COLOR: #ddd; PADDING-TOP: 2px;
+ BORDER-BOTTOM: #eee 1px solid 
+} 
+  </style>
+  <!-- content end -->

@@ -1,0 +1,17 @@
+[ 2020-02-21T12:27:53+08:00 ] ::1 /xianyu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018198s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013109s ]
+

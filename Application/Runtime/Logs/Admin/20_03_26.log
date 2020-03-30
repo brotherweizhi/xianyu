@@ -1,0 +1,1859 @@
+[ 2020-03-26T10:16:40+08:00 ] 127.0.0.1 /Admin/item/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016220s ]
+
+[ 2020-03-26T10:16:41+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010155s ]
+
+[ 2020-03-26T10:16:43+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0057s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2020-03-26T10:16:44+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.1281s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2020-03-26T10:16:46+08:00 ] 127.0.0.1 /Admin/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0133s ]
+
+[ 2020-03-26T10:16:46+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2020-03-26T10:16:49+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0129s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'admin' OR `tel` = 'admin' ) AND `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2020-03-26T10:16:49+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2020-03-26T10:26:03+08:00 ] 127.0.0.1 /Admin/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0125s ]
+
+[ 2020-03-26T10:26:03+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2020-03-26T10:26:05+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0055s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+ERR: Class 'Admin\Controller\Model' not found
+
+[ 2020-03-26T10:26:33+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0046s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: select role from tp_user where username=123 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2020-03-26T10:26:35+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0062s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0006s ]
+SQL: select role from tp_user where username=123 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2020-03-26T10:29:25+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0059s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = '123'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2020-03-26T10:29:27+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0066s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = '123'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2020-03-26T10:29:41+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'admin' OR `tel` = 'admin' ) AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2020-03-26T10:29:43+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = '123'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2020-03-26T10:29:47+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0056s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = '123'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2020-03-26T10:29:51+08:00 ] 127.0.0.1 /Admin/Comment/all/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2020-03-26T10:29:51+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2020-03-26T10:29:54+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0059s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `role` FROM `tp_user` WHERE `username` = '123'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2020-03-26T10:31:13+08:00 ] 127.0.0.1 /Admin/item/view?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2020-03-26T10:31:13+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2020-03-26T10:31:15+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0046s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `role` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2020-03-26T10:32:52+08:00 ] 127.0.0.1 /Admin/Comment/all/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+
+[ 2020-03-26T10:32:52+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2020-03-26T10:32:55+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0047s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' AND `role` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2020-03-26T10:33:24+08:00 ] 127.0.0.1 /Admin/item/view?id=41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2020-03-26T10:33:24+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2020-03-26T10:33:26+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0055s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' AND `role` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2020-03-26T10:33:31+08:00 ] 127.0.0.1 /Admin/Comment/all/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+
+[ 2020-03-26T10:33:31+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2020-03-26T10:33:32+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0058s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'admin' OR `tel` = 'admin' ) AND `password` = 'admin' AND `role` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-03-26T10:33:32+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2020-03-26T15:42:45+08:00 ] 127.0.0.1 /Admin/user/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015430s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0459s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user` ORDER BY uid LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030390s ]
+
+[ 2020-03-26T16:44:04+08:00 ] 127.0.0.1 /Admin/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0115s ]
+
+[ 2020-03-26T16:44:04+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2020-03-26T16:44:05+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0068s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' AND `role` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2020-03-26T16:44:07+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'admin' OR `tel` = 'admin' ) AND `password` = 'admin' AND `role` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-03-26T16:44:08+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2020-03-26T16:44:22+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2020-03-26T20:44:48+08:00 ] 127.0.0.1 /Admin/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0149s ]
+
+[ 2020-03-26T20:44:48+08:00 ] 127.0.0.1 /Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined variable: message D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2020-03-26T20:55:55+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0254s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0065s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '12322' AND `role` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined variable: role D:\360\www2\xianyu\Application\Runtime\Cache\Admin\1076b913512e165070eac03bb8b572df.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2020-03-26T20:57:14+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'admin' OR `tel` = 'admin' ) AND `password` = 'admin' AND `role` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-03-26T20:57:14+08:00 ] 127.0.0.1 /Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_item` ORDER BY id desc LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2020-03-26T21:09:45+08:00 ] 127.0.0.1 /Admin/user/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY uid LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2020-03-26T21:10:23+08:00 ] 127.0.0.1 /Admin/user/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_user` ORDER BY uid LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2020-03-26T21:15:24+08:00 ] 127.0.0.1 /Admin/user/status?uid=3&status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0067s ]
+SQL: UPDATE `tp_user` SET `status`='1' WHERE `uid` = 3 [ RunTime:0.0553s ]
+
+[ 2020-03-26T21:15:24+08:00 ] 127.0.0.1 /Admin/user/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY uid LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2020-03-26T21:19:03+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2020-03-26T21:19:24+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2020-03-26T21:19:46+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2020-03-26T21:19:52+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2020-03-26T21:20:08+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2020-03-26T21:20:18+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2020-03-26T21:20:28+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2020-03-26T21:20:35+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2020-03-26T21:20:41+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2020-03-26T21:21:20+08:00 ] 127.0.0.1 /Admin/user/edit?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\2204e6294b763305a3a8417b7f6eca3b.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2020-03-26T21:29:47+08:00 ] 127.0.0.1 /Admin/cate/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: count D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: pageBar D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2020-03-26T21:31:57+08:00 ] 127.0.0.1 /Admin/cate/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: count D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: pageBar D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2020-03-26T21:35:06+08:00 ] 127.0.0.1 /Admin/cate/del?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE ( `cateId1` = '1' OR `cateId2` = '1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-03-26T21:35:06+08:00 ] 127.0.0.1 /Admin/cate/all/show/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: count D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: pageBar D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2020-03-26T21:37:56+08:00 ] 127.0.0.1 /Admin/cate/edit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 94 行.
+NOTIC: [8] Undefined index: uid D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2020-03-26T21:38:40+08:00 ] 127.0.0.1 /Admin/cate/edit?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 94 行.
+NOTIC: [8] Undefined index: uid D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2020-03-26T21:44:42+08:00 ] 127.0.0.1 /Admin/cate/edit?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 94 行.
+NOTIC: [8] Undefined index: uid D:\360\www2\xianyu\Application\Runtime\Cache\Admin\0e218707fb5e05fe686372fbaf1e101d.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2020-03-26T21:45:24+08:00 ] 127.0.0.1 /Admin/item/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0157s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0009s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0006s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: pageBar D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 14 行.
+NOTIC: [8] Undefined index: count D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2020-03-26T21:51:32+08:00 ] 127.0.0.1 /Admin/item/view?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0129s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0085s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2020-03-26T21:56:25+08:00 ] 127.0.0.1 /Admin/item/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0081s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: pageBar D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 14 行.
+NOTIC: [8] Undefined index: count D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2020-03-26T21:56:36+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.1008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\d4ffc0c737eb16cf3da81aea1e0f05f8.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2020-03-26T21:59:17+08:00 ] 127.0.0.1 /Admin/item/view?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0134s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0082s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2020-03-26T21:59:19+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\d4ffc0c737eb16cf3da81aea1e0f05f8.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2020-03-26T22:01:19+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0545s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2020-03-26T22:01:44+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2020-03-26T22:01:57+08:00 ] 127.0.0.1 /Admin/item/view?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0128s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0084s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2020-03-26T22:02:37+08:00 ] 127.0.0.1 /Admin/item/view?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0125s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0089s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2020-03-26T22:02:43+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+

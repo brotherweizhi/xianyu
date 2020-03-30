@@ -1,0 +1,152 @@
+<script language="javascript">
+    $(function(){
+        $("#btnSelect").click(function(){
+            $("input[name='id[]']:checkbox").each(function(){
+                this.checked = !this.checked;
+            });
+        });
+        $("#btnSearch").click(function(){
+            location.href = "__URL__/../comment/all?kw="+$("#kw").val();
+        });
+    });
+</script>
+<form method="post" action="__URL__/../comment/batch" id="form1">
+    <div class="admin-content">
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">常用模块</strong> / <small>评论管理</small></div>
+        </div>
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-6">
+                <div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                        <button type="button" class="am-btn am-btn-default" id="btnSelect">多选</button>
+                        <button type="submit" class="am-btn am-btn-default" name="batchDel" value="1" onclick="return delBatch(document.forms['form1'])"><span class="am-icon-trash-o"></span> 删除</button>
+                    </div>
+                </div>
+            </div>
+            <div class="am-u-sm-12 am-u-md-3">
+
+                <div class="am-input-group am-input-group-sm">
+
+                    <span class="am-input-group-btn">
+
+          </span> </div>
+
+            </div>
+        </div>
+        <div class="am-g">
+            <div class="am-u-sm-12">
+
+                <table class="am-table am-table-striped am-table-hover table-main">
+                    <thead>
+                    <tr>
+                        <th class="table-id">ID</th>
+                        <th class="table-title">评论内容</th>
+                        <th class="table-date am-hide-sm-only">发表人/时间</th>
+                        <th class="table-date am-hide-sm-only">商品标题</th>
+                        <th class="table-set">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    [volist name="list" id="vo"]
+                    <tr >
+                    <td>
+                        {$vo.id}</td>
+                    <td>{$vo.content}</td>
+                    <td class="am-hide-sm-only">{$vo.username}/[notempty name="vo.created"]{$vo.created|date='Y-m-d H:i', ###}[/notempty]</td>
+                    <td class="am-hide-sm-only"><a href="__URL__/../item/view?id={$vo.itemId}">{$vo.title|mb_substr=###,0,4,'utf-8'}  ..</a></td>
+                    <td><div class="am-btn-toolbar">
+                        <div class="am-btn-group am-btn-group-xs">
+                            <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick=" if (confirm('确定?')) location.href='__URL__/../comment/del?id={$vo.id}'"><span class="am-icon-trash-o"></span> 删除</button>
+                        </div>
+                    </div></td>
+                    </tr>
+                    [/volist]
+                    </tbody>
+
+                </table>
+                <div class="am-cf">
+                    共 {$count} 条记录
+                    <div class="am-fr">
+                        <div class="digg">{$pageBar}</div>
+                    </div>
+                </div>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+</form>
+[load href="__PUBLIC__/css/page.css"/]
+[load href="__PUBLIC__/js/admin.js"/]
+
+<style>
+    DIV.digg {
+        PADDING-RIGHT: 3px;
+        PADDING-LEFT: 3px;
+        PADDING-BOTTOM: 3px;
+        MARGIN: 3px;
+        PADDING-TOP: 3px;
+        TEXT-ALIGN: center
+    }
+
+    DIV.digg A {
+        BORDER-RIGHT: #aaaadd 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #aaaadd 1px solid;
+        PADDING-LEFT: 5px;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #aaaadd 1px solid;
+        COLOR: #000099;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #aaaadd 1px solid;
+        TEXT-DECORATION: none
+    }
+
+    DIV.digg A:hover {
+        BORDER-RIGHT: #000099 1px solid;
+        BORDER-TOP: #000099 1px solid;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #000;
+        BORDER-BOTTOM: #000099 1px solid
+    }
+
+    DIV.digg A:active {
+        BORDER-RIGHT: #000099 1px solid;
+        BORDER-TOP: #000099 1px solid;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #000;
+        BORDER-BOTTOM: #000099 1px solid
+    }
+
+    DIV.digg SPAN.current {
+        BORDER-RIGHT: #000099 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #000099 1px solid;
+        PADDING-LEFT: 5px;
+        FONT-WEIGHT: bold;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #000099 1px solid;
+        COLOR: #fff;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #000099 1px solid;
+        BACKGROUND-COLOR: #000099
+    }
+
+    DIV.digg SPAN.disabled {
+        BORDER-RIGHT: #eee 1px solid;
+        PADDING-RIGHT: 5px;
+        BORDER-TOP: #eee 1px solid;
+        PADDING-LEFT: 5px;
+        PADDING-BOTTOM: 2px;
+        MARGIN: 2px;
+        BORDER-LEFT: #eee 1px solid;
+        COLOR: #ddd;
+        PADDING-TOP: 2px;
+        BORDER-BOTTOM: #eee 1px solid
+    }
+</style>
+<!-- content end -->

@@ -1,0 +1,1538 @@
+[ 2020-03-27T10:29:38+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036529s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0719s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0713s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0173s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0009s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013227s ]
+
+[ 2020-03-27T10:30:12+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0122s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2020-03-27T10:40:42+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0339s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2020-03-27T10:41:26+08:00 ] 192.168.1.105 /api/item/view?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0064s ]
+SQL: UPDATE `tp_item` SET `hits`=hits+1 WHERE ( id=45 ) [ RunTime:0.1062s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2020-03-27T10:50:02+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0117s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2020-03-27T10:50:04+08:00 ] 192.168.1.105 /api/item/view?id=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0059s ]
+SQL: UPDATE `tp_item` SET `hits`=hits+1 WHERE ( id=45 ) [ RunTime:0.0583s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 45 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 45 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2020-03-27T11:08:12+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0091s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2020-03-27T11:08:13+08:00 ] 192.168.1.105 /api/comment/my?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0053s ]
+SQL: SELECT c.*,i.pic FROM tp_comment c  JOIN tp_item i ON c.itemId=i.id  WHERE i.username = 'test'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2020-03-27T11:16:14+08:00 ] 192.168.1.105 /api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0052s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = '123' OR `tel` = '123' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2020-03-27T11:16:26+08:00 ] 192.168.1.105 /api/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::delete($uid) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\UserLogic::find($uid) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\UserLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0598s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0048s ]
+SQL: SELECT `uid`,`tel`,`username` FROM `tp_user` WHERE ( `username` = 'test' OR `tel` = 'test' ) AND `password` = '123' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2020-03-27T11:16:29+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0094s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2020-03-27T11:16:29+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0053s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0001s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0001s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0001s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2020-03-27T11:17:54+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0086s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2020-03-27T11:17:54+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0059s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2020-03-27T11:20:33+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0561s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0118s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2020-03-27T11:20:33+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0073s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2020-03-27T11:22:01+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0110s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2020-03-27T11:22:08+08:00 ] 192.168.1.105 /api/item/search?kw=think
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%think%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%think%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0110s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2020-03-27T11:22:08+08:00 ] 192.168.1.105 /api/item/search?kw=think
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%think%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%think%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0059s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2020-03-27T11:24:00+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0601s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0118s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2020-03-27T11:24:05+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0083s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2020-03-27T11:24:05+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0064s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2020-03-27T11:30:30+08:00 ] 192.168.1.105 /api/item/search?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.2958s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 3  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2020-03-27T11:30:30+08:00 ] 192.168.1.105 /api/item/search?cid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 3  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2020-03-27T11:30:31+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0117s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2020-03-27T11:30:32+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0099s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2020-03-27T11:30:32+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0062s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2020-03-27T11:30:36+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0113s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2020-03-27T11:30:38+08:00 ] 192.168.1.105 /api/item/search?cid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0114s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2020-03-27T11:30:38+08:00 ] 192.168.1.105 /api/item/search?cid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0057s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2020-03-27T11:30:41+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0105s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2020-03-27T11:31:33+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.2970s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0088s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2020-03-27T11:31:33+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.2895s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0104s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2020-03-27T11:34:28+08:00 ] 192.168.1.105 /api/item/search?city=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0099s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2020-03-27T11:35:29+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.2984s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0093s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2020-03-27T11:35:29+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.2776s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0096s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0212s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2020-03-27T11:35:30+08:00 ] 192.168.1.105 /api/item/search?city=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0123s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2020-03-27T11:35:41+08:00 ] 192.168.1.105 /api/item/search?city=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0111s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2020-03-27T11:35:43+08:00 ] 192.168.1.105 /api/item/search?city=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '3'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0086s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2020-03-27T11:35:45+08:00 ] 192.168.1.105 /api/item/search?city=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0073s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2020-03-27T11:36:03+08:00 ] 192.168.1.105 /api/item/search?city=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `city` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0102s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2020-03-27T11:36:44+08:00 ] 192.168.1.105 /api/item/search?city=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0109s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2020-03-27T11:39:31+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0142s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2020-03-27T11:39:31+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0054s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0001s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2020-03-27T11:43:19+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0108s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2020-03-27T11:43:19+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.3331s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0112s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2020-03-27T11:43:21+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0114s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2020-03-27T11:43:21+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0052s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2020-03-27T11:43:39+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0100s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2020-03-27T11:43:39+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0115s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2020-03-27T11:43:40+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0121s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0005s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2020-03-27T11:43:40+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0063s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2020-03-27T11:43:55+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0110s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2020-03-27T11:44:49+08:00 ] 192.168.1.105 /api/item/view?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0053s ]
+SQL: UPDATE `tp_item` SET `hits`=hits+1 WHERE ( id=4 ) [ RunTime:0.0740s ]
+SQL: SELECT `id`,`username`,`title`,`price`,from_unixtime(created) created,`hits`,`comments`,`collections`,`content`,`city` FROM `tp_item` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `itemId` = 4 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2020-03-27T11:45:05+08:00 ] 192.168.1.105 /api/item/search?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%' AND `cateId1` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0117s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2020-03-27T11:45:07+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0123s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2020-03-27T11:49:38+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0121s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2020-03-27T11:49:46+08:00 ] 192.168.1.105 /api/upload/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2020-03-27T11:53:41+08:00 ] 192.168.1.105 /api/item/search?city=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017306s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.3820s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0097s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008900s ]
+
+[ 2020-03-27T11:53:42+08:00 ] 192.168.1.105 /api/comment/my?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0045s ]
+SQL: SELECT c.*,i.pic FROM tp_comment c  JOIN tp_item i ON c.itemId=i.id  WHERE i.username = 'test'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2020-03-27T11:56:57+08:00 ] 192.168.1.105 /api/comment/sysMsg?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0557s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `username` = 'admin' AND `toUsername` = 'test'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2020-03-27T11:57:43+08:00 ] 192.168.1.105 /api/comment/sysMsg?username=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`username`,from_unixtime(created) created,`content`,`toUsername`,`readed` FROM `tp_comment` WHERE `username` = 'admin' AND `toUsername` = 'test'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2020-03-27T12:02:27+08:00 ] 192.168.1.105 /api/item/myItem?account=test&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0179s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT `id`,`title`,`content`,from_unixtime(created) as created,`username`,`collections`,`comments`,`price` FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) ORDER BY id LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2020-03-27T12:02:27+08:00 ] 192.168.1.105 /api/item/myItem?account=test&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`content`,from_unixtime(created) as created,`username`,`collections`,`comments`,`price` FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) ORDER BY id LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2020-03-27T12:03:08+08:00 ] 192.168.1.105 /api/item/myFavourItem?uid=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `tp_collection_item` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_collection_item` WHERE tp_collection_item.uid = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_item.id,tp_item.username,tp_item.title,tp_item.content,tp_item.pic,tp_item.collections,tp_item.price,tp_item.comments,(select 1) as flag FROM `tp_collection_item` INNER JOIN tp_item ON tp_item.id=tp_collection_item.itemId  WHERE tp_collection_item.uid = '1' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2020-03-27T12:03:08+08:00 ] 192.168.1.105 /api/item/myFavourItem?uid=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `tp_collection_item` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_collection_item` WHERE tp_collection_item.uid = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_item.id,tp_item.username,tp_item.title,tp_item.content,tp_item.pic,tp_item.collections,tp_item.price,tp_item.comments,(select 1) as flag FROM `tp_collection_item` INNER JOIN tp_item ON tp_item.id=tp_collection_item.itemId  WHERE tp_collection_item.uid = '1' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2020-03-27T12:03:18+08:00 ] 192.168.1.105 /api/item/myItem?account=test&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`content`,from_unixtime(created) as created,`username`,`collections`,`comments`,`price` FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) ORDER BY id LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2020-03-27T12:03:18+08:00 ] 192.168.1.105 /api/item/myItem?account=test&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`content`,from_unixtime(created) as created,`username`,`collections`,`comments`,`price` FROM `tp_item` WHERE ( `uid` = 'test' OR `username` = 'test' ) ORDER BY id LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2020-03-27T12:04:05+08:00 ] 192.168.1.105 /api/item/myFavourItem?uid=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `tp_collection_item` [ RunTime:0.0105s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_collection_item` WHERE tp_collection_item.uid = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_item.id,tp_item.username,tp_item.title,tp_item.content,tp_item.pic,tp_item.collections,tp_item.price,tp_item.comments,(select 1) as flag FROM `tp_collection_item` INNER JOIN tp_item ON tp_item.id=tp_collection_item.itemId  WHERE tp_collection_item.uid = '1' LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2020-03-27T12:04:05+08:00 ] 192.168.1.105 /api/item/myFavourItem?uid=1&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `tp_collection_item` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_collection_item` WHERE tp_collection_item.uid = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_item.id,tp_item.username,tp_item.title,tp_item.content,tp_item.pic,tp_item.collections,tp_item.price,tp_item.comments,(select 1) as flag FROM `tp_collection_item` INNER JOIN tp_item ON tp_item.id=tp_collection_item.itemId  WHERE tp_collection_item.uid = '1' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2020-03-27T12:38:02+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015318s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0078s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2020-03-27T12:38:02+08:00 ] 192.168.1.105 /api/item/search?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015238s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select count(1) from tp_collection_item where uid=1 and itemId=tp_item.id) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0063s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0002s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+

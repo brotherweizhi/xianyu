@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+/**artDialog自定义红色皮肤*/
+.u2_dialog_red .ui-dialog-header{background: #E04726; color:#FFF;}
+.u2_dialog_red .ui-dialog-footer button.ui-dialog-autofocus {
+  color: #ffffff;
+  background-color: #E04726;
+  border: none;
+}
+.u2_dialog_red .ui-dialog-footer button.ui-dialog-autofocus:hover,
+.u2_dialog_red .ui-dialog-footer button.ui-dialog-autofocus:focus,
+.u2_dialog_red .ui-dialog-footer button.ui-dialog-autofocus:active {background:#E04726; color:#FFF;}
+
+/**artDialog自定义蓝色皮肤*/
+.u2_dialog_blue .ui-dialog-header{background: #3276B1; color:#FFF;}
+.u2_dialog_blue .ui-dialog-footer button.ui-dialog-autofocus {
+  color: #ffffff;
+  background-color: #3276B1;
+  border: none;
+}
+.u2_dialog_blue .ui-dialog-footer button.ui-dialog-autofocus:hover,
+.u2_dialog_blue .ui-dialog-footer button.ui-dialog-autofocus:focus,
+.u2_dialog_blue .ui-dialog-footer button.ui-dialog-autofocus:active {background:#3276B1; color:#FFF;}
+
+/**artDialog自定义黑色皮肤*/
+.u2_dialog_black .ui-dialog-header{background: #333; color:#FFF;}
+.u2_dialog_black .ui-dialog-footer button.ui-dialog-autofocus {
+  color: #ffffff;
+  background-color: #333;
+  border: none;
+}
+.u2_dialog_black .ui-dialog-footer button.ui-dialog-autofocus:hover,
+.u2_dialog_black .ui-dialog-footer button.ui-dialog-autofocus:focus,
+.u2_dialog_black .ui-dialog-footer button.ui-dialog-autofocus:active {background:#333; color:#FFF;}

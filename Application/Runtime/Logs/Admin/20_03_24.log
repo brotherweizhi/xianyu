@@ -1,0 +1,172 @@
+[ 2020-03-24T09:36:45+08:00 ] 127.0.0.1 /Admin/item/view?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016311s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0693s ]
+NOTIC: [2] Declaration of Admin\Logic\PicLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\PicLogic.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0496s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0754s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`username`,`price`,from_unixtime(created) created,`comments`,`collections`,`content` FROM `tp_item` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pic` WHERE `itemId` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Division by zero D:\360\www2\xianyu\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `tp_pic` WHERE `itemId` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE `itemId` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_comment` WHERE `itemId` = 1 ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: title D:\360\www2\xianyu\Application\Runtime\Cache\Admin\366b17ceea21e45320499466cc1d9653.php 第 104 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\366b17ceea21e45320499466cc1d9653.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027708s ]
+
+[ 2020-03-24T09:36:48+08:00 ] 127.0.0.1 /Admin/comment/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [2] Declaration of Admin\Logic\CommentLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CommentLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `tp_comment` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_comment` WHERE tp_comment.content LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_comment.*,i.title FROM `tp_comment`  INNER JOIN tp_item i ON i.id=tp_comment.itemId  WHERE tp_comment.content LIKE '%%' ORDER BY tp_comment.id LIMIT 0,10   [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\d4ffc0c737eb16cf3da81aea1e0f05f8.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2020-03-24T09:36:57+08:00 ] 127.0.0.1 /Admin/cate/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: count D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: pageBar D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2020-03-24T09:36:59+08:00 ] 127.0.0.1 /Admin/item/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\ItemLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\ItemLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `tp_item` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_item` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`title`,`pic`,`price`,from_unixtime(created) created,`comments`,`collections`,`content`,`city`,(select 0) as flag FROM `tp_item` WHERE `title` LIKE '%%'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_pic` [ RunTime:0.0079s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=1 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=4 )  [ RunTime:0.0004s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=10 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=36 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=41 )  [ RunTime:0.0003s ]
+SQL: SELECT concat(url,'_200x200.jpg') url,concat(url,'') urlBig FROM `tp_pic` WHERE ( itemId=45 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: pageBar D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 14 行.
+NOTIC: [8] Undefined index: count D:\360\www2\xianyu\Application\Admin\Controller\ItemController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: kw D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 117 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+NOTIC: [8] A non well formed numeric value encountered D:\360\www2\xianyu\Application\Runtime\Cache\Admin\998512fefe810a0711e724b97a86868a.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2020-03-24T09:37:40+08:00 ] 127.0.0.1 /Admin/cate/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::delete($id) should be compatible with Think\Model::delete($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+NOTIC: [2] Declaration of Admin\Logic\CateLogic::find($id) should be compatible with Think\Model::find($options = Array) D:\360\www2\xianyu\Application\Admin\Logic\CateLogic.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `tp_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_cate` WHERE ( tid=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: count D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: msg D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 146 行.
+NOTIC: [8] Undefined variable: pageBar D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 150 行.
+NOTIC: [8] Undefined variable: show D:\360\www2\xianyu\Application\Runtime\Cache\Admin\03307506721e8bbfb8d5fcfe621c1fe3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
